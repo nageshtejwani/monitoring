@@ -1,14 +1,14 @@
 # Sample monitoring app(Spring Boot)
 
-### Application contains dependnecy of Promethehus and Grafana.
-### It registers sample metrics with Spring boot application 
-### and we can change the value of metrics using  REST API endpoints
-### and same can be visible in Grafana/Prometheus
+#### Application contains dependnecy of Promethehus and Grafana.
+#### It registers sample metrics with Spring boot application 
+#### and we can change the value of metrics using  REST API endpoints
+#### and same can be visible in Grafana/Prometheus
 
 
-# Build
-###  docker compose build
+## Build
+####  docker compose build
 
-# Run 
+## Run 
 
-### docker compose run 
+#### docker compose run 
