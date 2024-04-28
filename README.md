@@ -32,6 +32,4 @@ GET http://localhost:8089/myappmetrics/remove //subtracting the active request c
 #### Actuator Endpoint 
 http://localhost:8089/actuator/prometheus
 
-#### Public Docker Image
-docker pull nageshtejwani/monitoring 
 
