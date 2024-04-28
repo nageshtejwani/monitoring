@@ -12,3 +12,25 @@
 ## Run 
 
 #### docker compose run 
+
+
+
+#### Sample Metrics 
+ 
+############ TYPE requests_total counter
+requests_total{application="monitoring-demo",} 5.0
+
+############ TYPE requests_active gauge
+requests_active{application="monitoring-demo",} 3.0
+
+#### Rest Endpoints 
+
+GET http://localhost:8089/myappmetrics/add  //adding the counter
+
+GET http://localhost:8089/myappmetrics/remove //subtracting the active request count
+
+#### Actuator Endpoint 
+http://localhost:8089/actuator/prometheus
+
+
+
